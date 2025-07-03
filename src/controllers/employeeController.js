@@ -39,7 +39,7 @@ exports.updateEmployee = async (req, res) => {
     }
 };
 
-// delete employee
+// delete employee  
 exports.deleteEmployee = async (req, res) => { 
     try {
         const { id  } = req.params;
